@@ -1,0 +1,92 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  /* Fixed sidenav, full height */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #008080;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Tangerine', cursive; */
+  }
+
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 50px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #3d3131;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; 
+    font-size: 20px; 
+    padding: 0px 10px;
+  }
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .houseHeading h2 {
+    margin-top: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color: #008080;
+    text-align: center;
+  }
+
+  .wrap{
+      width:1000px;
+      margin: auto;
+      margin-top: 100px;
+  }
+
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+      transition: 0.4s;
+      width: 300px;
+      background: #fff;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      float: left;
+      margin: 10px; 
+
+  }
+
+  .card:hover {
+      box-shadow: 0 8px 16px 0 #008080;
+  }
+
+  .container {
+      padding: 2px 16px;
+  }
+  
+  .card hr {
+    color: #008080
+  }
+  
+  

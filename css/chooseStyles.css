@@ -1,0 +1,91 @@
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
+  /* Fixed sidenav, full height */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #008080;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Tangerine', cursive; */
+  }
+
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 50px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #3d3131;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; 
+    font-size: 20px; 
+    padding: 0px 10px;
+  }
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .main .login_form h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color: #008080;
+    text-align: center;
+  }
+  
+  .main .login_form {
+    /* background-color: rgb(170, 164, 164); */
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 28%;
+    margin-top: auto;
+  }
+
+  .main .login_form form {
+    display: grid;
+    width: 350px;
+    margin: auto auto 0 auto;
+    padding: 20px;
+    background-color: rgb(194, 191, 191);
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .login_form button {
+    display: block;
+    width: 80%;
+    margin-top: 7px;
+    padding: 15px;
+    border-radius: 7px;
+    border-color: #008080;
+    background-color: #008080;
+    margin-left: 30px;
+  }
+  
+  
+  
+  
